@@ -165,6 +165,8 @@ article{
 }
 
 @media (max-width:700px) {
+   /*MENU HAMBURGUER*/
+   
     li{
         display: block;
         
@@ -234,4 +236,36 @@ article{
         transform: rotate(-135deg);
         top: -7px;
     }
+
+
+
+    /*RESPONSIVIDADE /CONTATO*/
+
+    table{
+        display: block;
+        position: relative;
+        width: 100%;
+        left: 100px;
+}
+
+   thead, tbody,th,td,tr{
+       display: block;
+   }
+
+   td,th{
+       height: 35px;
+   }
+
+   thead{
+       float: left;
+   }
+
+   tbody{
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+   }
+
 }
