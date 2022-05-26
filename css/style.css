@@ -230,10 +230,15 @@ article{
     
    /*MENU HAMBURGUER*/
    
+    .container{
+        max-width: 400px;
+    }
+
     li{
         display: block;
         
     }
+
     #menu{
       display: block; 
       position: absolute;
