@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --fontlogo: 'Ultra', serif;
+    --fontbody:'Poppins', sans-serif;
+
+    --corlogo:#FFE34B;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: var(--fontbody);
+    
+}
+
+.container{
+     max-width: 1300px;
+}
+
+/*CABEÇALHO COMPUTADOR*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--fontlogo);
+    width: 100%;
+}
+
+.logo{
+    display: inline-block;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 100px;
+    color: var(--corlogo);
+}
+
+nav{
+    display: inline-block;
+}
+
+ul{
+   text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.linknav:hover{
+    color:var(--corlogo);
+}
+
+li{
+    display: inline-block;
+    padding: 8px;
+}
+
+/*PÁGINA SOBRE*/
+.about{
+    max-width: 70%;
+    margin: auto;
+    border: 1px solid yellow;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.paragrafo-about{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.subh2{
+    margin-bottom: 20px;
+    color: var(--corlogo);
+    font-family: var(--fontlogo);
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+/*PÁGINA DE CONTATO*/
+
+.contact{
+    width: 50%;
+    margin: auto;
+}
+
+th{
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+}
+
+.creditos{
+    margin-top: 50px;
+}
+
+.contactimg{
+    width: 25px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.listcontact{
+    display: inline-block;
+}
+
+.email:hover{
+    text-decoration: underline;
+    border-bottom: 1px solid white;
+}
+
+#btn-mobile{
+    display: none;
+}
+
+
+/*PÁGINA DE PREÇOS*/
+
+#custo{
+    margin: auto;
+    width: 70%;
+}
+
+.paragrafo-art{
+    font-size: 1.2rem;
+}
+
+article{
+    border: 1px solid white;
+    border-radius: 5px;
+    max-width: 300px;
+    padding: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px){
+      .contact{
+          width: 80%;
+      }
+}
+
+@media (max-width:700px) {
+    li{
+        display: block;
+        
+    }
+    #menu{
+      display: block; 
+      position: absolute;
+      width: 100%;
+      top: 130px;
+      right: 0px;
+      background: rgb(235, 203, 203);
+      height: 0px;
+      transition: .6s;
+      visibility: hidden;
+      overflow-y:hidden ;
+    }
+
+    #nav.active #menu{
+        display: flex;
+        flex-direction: column;
+        height: calc(100vh + 70px);
+        visibility: visible;
+    }
+    
+    .linknav{
+        padding: 1rem 0;
+        margin:0 1rem;
+    }
+
+    #btn-mobile{
+        display: flex;
+        padding: .5rem;
+        margin-right: 40px;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        color: white;
+        gap: .5rem;
+    }
+
+    #hamburguer{
+        border-top: 2px solid var(--corlogo);
+        width: 30px;
+    }
+
+    #hamburguer::after, #hamburguer::before{
+        content: '';
+        display: block;
+        width: 30px;
+        height: 2px;
+        background-color: var(--corlogo);
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburguer {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburguer::before{
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburguer::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+}
