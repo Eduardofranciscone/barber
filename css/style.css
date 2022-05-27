@@ -66,6 +66,15 @@ li{
     padding: 8px;
 }
 
+.contentinicio{
+    margin: auto;
+    
+    text-align: center;
+}
+.imgdefundo{
+   height: 500px;
+    
+}
 /*PÁGINA SOBRE*/
 .about{
     max-width: 70%;
@@ -76,12 +85,12 @@ li{
 }
 
 .paragrafo-about{
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: justify;
 }
 
 .subh2{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: var(--corlogo);
     font-family: var(--fontlogo);
     margin-top: 10px;
@@ -155,6 +164,10 @@ article{
 }
 
 @media (max-width:760px){
+    .imgdefundo{
+        height: 350px;
+    }
+
     li{
         display: block;
         
@@ -230,6 +243,9 @@ article{
     
    /*MENU HAMBURGUER*/
    
+    .imgdefundo{
+        height: 300px;
+    }
     .container{
         max-width: 400px;
     }
@@ -334,6 +350,14 @@ article{
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     white-space: nowrap;
+   }
+
+
+
+   @media (max-width:590px){
+      .imgdefundo{
+          height: 250px;
+      }
    }
 
 }
