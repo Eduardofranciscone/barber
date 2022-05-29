@@ -317,6 +317,9 @@ article{
         height: 300px;
     }
    
+    .none{
+        display: none;
+    }
     .container{
         margin: auto;
     }
@@ -444,9 +447,8 @@ article{
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:400px) {
     #custo{
-        min-width: 275px;
-        overflow: auto;
+        width: 100%;
     }
 }
