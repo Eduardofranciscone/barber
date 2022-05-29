@@ -154,7 +154,7 @@ td{
 
 #custo{
     margin: auto;
-    width: 70%;
+    width: 50%;
 }
 
 .paragrafo-art{
@@ -162,10 +162,31 @@ td{
 }
 
 article{
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
     border-radius: 5px;
-    max-width: 300px;
-    padding: 8px;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.logoimg{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.logoart{
+    background-image:linear-gradient(to right, black, yellow) ;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    margin: -6px;
+    margin-bottom: 20px;
+}
+
+.precos{
+    float: right;
+    position: relative;
+    right: 30px;
 }
 
 
