@@ -302,7 +302,7 @@ article{
 /*RESPONSIVO DE 700PX*/
 @media (max-width:700px) {
     #custo{
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -435,6 +435,6 @@ article{
 
 @media (max-width:500px) {
     #custo{
-        width: 90%;
+        width: 100%;
     }
 }
