@@ -25,6 +25,7 @@ body{
 .container{
     max-width: 1200px;
     min-width: 300px;
+    overflow: auto;
 }
 
 /*CABEÇALHO COMPUTADOR*/
@@ -112,6 +113,8 @@ li{
 .contact{
     margin: auto;
     width: 70%;
+    min-width: 310px;
+    overflow: auto;
 }
 
 .contactimg{
@@ -348,6 +351,7 @@ article{
         margin:0 1rem;
     }
 
+
     #btn-mobile{
         display: flex;
         padding: .5rem;
@@ -436,6 +440,13 @@ article{
 
 @media (max-width:500px) {
     #custo{
-        width: 100%;
+        width: 95%;
+    }
+}
+
+@media (max-width:375px) {
+    #custo{
+        min-width: 275px;
+        overflow: auto;
     }
 }
