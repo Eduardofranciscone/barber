@@ -21,6 +21,20 @@ body{
     font-family: var(--fontbody);
     
 }
+/*ADIÇOES A PARTE*/
+.horarios-mobile{
+    display: none;
+}
+
+h4{
+    font-family: var(--fontlogo);
+    margin-bottom: 15px;
+}
+
+.metodo-de-pagamento{
+    text-align: center;
+    margin-top: 20px;
+}
 
 .container{
     max-width: 1200px;
@@ -188,6 +202,10 @@ article{
       .contact{
           width: 80%;
       }
+
+      .horarios-mobile{
+        display: none;
+    }
 }
 
 /*INICIO RESPONSIVO DE 790PX*/
@@ -199,9 +217,17 @@ article{
     .description{
         font-size: 18px;
     }
+
+    .horarios-mobile{
+        display: none;
+    }
 }
 
 @media (max-width:775px){
+    .horarios-mobile{
+        display: none;
+    }
+
     .imgdefundo{
         height: 400px;
     }
@@ -442,10 +468,34 @@ article{
     #custo{
         width: 95%;
     }
+
+    .horarios-mobile{
+        display: none;
+    }
 }
 
 @media (max-width:400px) {
     #custo{
         width: 100%;
+    }
+
+    /*INICIO*/
+
+    header{
+        width: 80%;
+    }
+
+    .imgdefundo{
+        height: 230px;
+    }
+
+    /*CONTATO*/
+
+    table{
+        display: none;
+    }
+
+    .contact-container{
+        height: 845px;
     }
 }
