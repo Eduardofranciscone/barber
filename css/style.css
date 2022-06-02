@@ -41,6 +41,9 @@ h4{
     min-width: 300px;
 }
 
+.paragrafo-about{
+    text-align: justify;
+}
 /*CABEÇALHO COMPUTADOR*/
 header{
     display: flex;
@@ -103,11 +106,12 @@ li{
     border: 1px solid yellow;
     padding: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .paragrafo-about{
     margin-top: 5px;
-    text-align: justify;
+    text-align: center;
 }
 
 .subh2{
@@ -331,6 +335,10 @@ article{
 @media (max-width:700px) {
     #custo{
         width: 90%;
+    }
+
+    .container-about{
+        margin: auto;
     }
 }
 
