@@ -94,6 +94,7 @@ li{
     font-size: 25px;
     border-bottom: 1px solid yellow;
     margin-bottom: 20px;
+    
 }
 /*PÁGINA SOBRE*/
 .about{
@@ -497,5 +498,19 @@ article{
 
     .contact-container{
         height: 845px;
+    }
+
+    @media (max-width:300px) {
+        .imgdefundo{
+            height: 200px;
+        }
+
+        .container{
+            max-width: 300px;
+        }
+
+        .contentinicio{
+            margin: auto;
+        }
     }
 }
