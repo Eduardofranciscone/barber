@@ -499,7 +499,10 @@ article{
     .contact-container{
         height: 845px;
     }
-
+    
+    .horarios-mobile{
+        display: inline-block;
+    }
     @media (max-width:300px) {
         .imgdefundo{
             height: 200px;
@@ -509,8 +512,5 @@ article{
             max-width: 300px;
         }
 
-        .contentinicio{
-            margin: auto;
-        }
     }
 }
