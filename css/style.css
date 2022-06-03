@@ -300,6 +300,10 @@ article{
         
     }
 
+    .center{
+        text-align: center;
+    }
+
     /*MENU HAMBURGUER DE 760PX*/
     #menu{
       display: block; 
