@@ -25,6 +25,10 @@ body{
 
 /*PÁGINA DE INICIO*/
 
+iframe{
+    display: none;
+}
+
 .container{
     max-width: 1200px;
     min-width: 300px;
@@ -616,6 +620,18 @@ article{
 
     .imgdefundo{
         height: 200px;
+    }
+
+    iframe{
+        display: block;
+        height: 400px;
+        width: 95%;
+    }
+
+    #localizacao{
+        padding: 20px;
+        margin-bottom: 10px;
+       margin-left: 15px;
     }
 }
 
