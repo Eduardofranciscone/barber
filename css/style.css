@@ -89,6 +89,26 @@ li{
     margin-bottom: 20px;
     
 }
+
+.move{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+}
+.agenda{
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+
+.agenda:hover{
+    color:black ;
+    background-color: #FFE34B;
+    text-decoration: underline;
+}
 /*PÁGINA SOBRE*/
 
 .container-about{
@@ -612,6 +632,10 @@ article{
 @media (max-width:500px) {
     #custo{
         width: 95%;
+    }
+
+    .move{
+        display: block;
     }
 
     .horarios-mobile{
