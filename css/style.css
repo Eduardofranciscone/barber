@@ -131,6 +131,10 @@ li{
     
 }
 
+.move-about{
+    display: block;
+}
+
 
 .subh2{
     margin-bottom: 15px;
@@ -589,7 +593,7 @@ article{
     /*RESPONSIVIDADE /CONTATO*/
 
     table{
-        display: block;
+        display: none;
         margin-left: 100px;
         width: 100%;
         
@@ -630,6 +634,10 @@ article{
 }
 
 @media (max-width:500px) {
+    .horarios-mobile{
+        display: block;
+    }
+    
     #custo{
         width: 95%;
     }
@@ -639,7 +647,7 @@ article{
     }
 
     .horarios-mobile{
-        display: none;
+        display: block;
     }
 
     .imgdefundo{
