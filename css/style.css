@@ -24,9 +24,9 @@ body{
 
 
 /*PÁGINA DE INICIO*/
-
-iframe{
-    display: none;
+.li-maps:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .container{
@@ -111,9 +111,21 @@ li{
 }
 /*PÁGINA SOBRE*/
 
+
 .container-about{
-    max-width: 1200px;
+    height: 100vh;
+    max-width: 1400px;
     min-width: 300px;
+    background-image: url('/images/pexels-caleb-oquendo-3162022.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.h2-about{
+    color: darkblue;
+    font-family: var(--fontlogo);
 }
 
 .about{
@@ -160,6 +172,11 @@ li{
 .contactimg{
     width: 30px;
     display: inline-block;
+}
+
+.li-contact{
+    display: flex;
+    gap: 8px;
 }
 
 
@@ -289,6 +306,11 @@ article{
     }
 }
 
+@media (max-width:880px){
+    .container-about{
+        height: 110vh;
+    }
+}
 
 @media (max-width:825px){
     #menu{
@@ -397,6 +419,13 @@ article{
     .container{
         margin: auto;
     }
+    
+    .contact-container{
+        margin: auto;
+    }
+    .contact{
+        margin: auto;
+    }
 
     .imgdefundo{
         height: 350px;
@@ -502,11 +531,21 @@ article{
     }
 }
 
+@media (max-width:683px){
+    .container-about{
+        height: 120vh;
+    }
+}
+
 @media (max-width:640px) {
     
    /*INDEX/SOBRE/PREÇOS*/
     .imgdefundo{
         height: 300px;
+    }
+
+    .container-about{
+        height: 130vh;
     }
    
     .none{
@@ -597,7 +636,11 @@ article{
         margin-left: 100px;
         width: 100%;
         
-}
+    }
+
+    .horarios-mobile{
+        display: block;
+    }
 
    thead, tbody,th,td,tr{
       display: block;
