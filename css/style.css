@@ -117,7 +117,7 @@ li{
     max-width: 1400px;
     min-width: 300px;
     background-image: url('/images/pexels-caleb-oquendo-3162022.jpg');
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
