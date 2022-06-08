@@ -755,6 +755,10 @@ article{
 @media (max-width:400px) {
 
 
+    .container-preco{
+        height: 110vh;
+    }
+
     /*INICIO*/
 
     .container{
@@ -801,11 +805,19 @@ article{
 }
 
 @media (max-width:384px){
+    .container-preco{
+        height: 110vh;
+    }
 }
 
 @media (max-width:357px) {
     .precos{
         margin-right: 0px;
+    }
+
+    .container-preco{
+        height: 110vh;
+        margin: auto;
     }
 
     .acept{
