@@ -113,6 +113,7 @@ li{
 
 .container-about {
     height: 100vh;
+    min-height: 300px;
     max-width: 1400px;
     min-width: 300px;
    
@@ -714,6 +715,9 @@ article{
         display: block;
     }
     
+    .container-preco{
+        max-width: 500px;
+    }
     #custo{
         width: 95%;
     }
@@ -737,6 +741,7 @@ article{
        
     }
 }
+
 
 @media (max-width:400px) {
 
@@ -784,6 +789,9 @@ article{
         display: block;
     }
     
+}
+
+@media (max-width:384px){
 }
 
 @media (max-width:357px) {
