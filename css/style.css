@@ -259,7 +259,7 @@ article{
 
 .cortes-container{
     max-width: 1400px;
-    min-height: 300px;
+    
     box-sizing: border-box;
     background-image: url('../images/pexels-nikolaos-dimou-1319460.jpg');
     background-position: center;
@@ -526,8 +526,6 @@ article{
         margin: auto;
     }
 
-
-
     .container-about{
         margin: auto;
         height: 120vh;
@@ -699,13 +697,6 @@ article{
 
     .imgdefundo{
         height: 200px;
-    }
-
-    iframe{
-        display: block;
-        height: 400px;
-        width: 95%;
-        border-radius: 8px;
     }
 
     #localizacao{
