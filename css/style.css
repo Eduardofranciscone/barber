@@ -30,9 +30,9 @@ body{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     min-width: 300px;
-
+    
 }
 
 header{
@@ -112,15 +112,11 @@ li{
 /*PÁGINA SOBRE*/
 
 
-.container-about{
+.container-about {
     height: 100vh;
     max-width: 1400px;
     min-width: 300px;
-    background-image: url('/images/pexels-caleb-oquendo-3162022.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+   
 }
 
 .h2-about{
@@ -135,6 +131,7 @@ li{
     padding: 10px;
     margin-bottom: 10px;
     text-align: center;
+    color: white;
 }
 
 .paragrafo-about{
@@ -159,7 +156,7 @@ li{
 /*PÁGINA DE CONTATO*/
 
 .contact-container{
-    max-width: 1200px;
+    max-width: 1400px;
     min-width: 300px;
 
 }
@@ -261,9 +258,14 @@ article{
 /*PÁGINA DE GALERIA*/
 
 .cortes-container{
-    max-width: 1200px;
+    max-width: 1400px;
     min-height: 300px;
     box-sizing: border-box;
+    background-image: url('../images/pexels-nikolaos-dimou-1319460.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .card-img{
@@ -528,6 +530,7 @@ article{
 
     .container-about{
         margin: auto;
+        height: 120vh;
     }
 }
 
@@ -536,6 +539,7 @@ article{
         height: 120vh;
     }
 }
+
 
 @media (max-width:640px) {
     
