@@ -24,10 +24,8 @@ body{
 
 
 /*PÁGINA DE INICIO*/
-.li-maps:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
+
+
 
 .container{
     max-width: 1400px;
@@ -176,6 +174,17 @@ li{
     gap: 8px;
 }
 
+.li-maps{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.li-maps:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .whatsapp{
     display: flex;
