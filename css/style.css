@@ -32,7 +32,6 @@ body{
 .container{
     max-width: 1400px;
     min-width: 300px;
-    
 }
 
 header{
@@ -207,6 +206,16 @@ td{
 
 /*PÁGINA DE PREÇOS*/
 
+.container-preco{
+    max-width: 1400px;
+    min-width: 300px;
+    height: 100vh;
+    background-image: url('../images/pexels-cottonbro-3992870.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 #custo{
     margin: auto;
     width: 50%;
@@ -261,7 +270,7 @@ article{
     max-width: 1400px;
     min-height: 300px;
     box-sizing: border-box;
-    background-image: url('../images/pexels-cottonbro-3992870.jpg');
+    background-image: url('../images/pexels-nikolaos-dimou-1319460.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -312,6 +321,9 @@ article{
         height: 110vh;
     }
 
+    .container-preco{
+        height: 110vh;
+    }
     .imgdefundo{
         height: 425px;
     }
@@ -537,11 +549,19 @@ article{
         margin: auto;
         height: 120vh;
     }
+
+    .container-preco{
+        height: 110vh;
+    }
 }
 
 @media (max-width:683px){
     .container-about{
         height: 120vh;
+    }
+
+    .container-preco{
+        height: 110vh
     }
 }
 
@@ -554,9 +574,13 @@ article{
     }
 
     .container-about{
-        height: 130vh;
+        height: 135vh;
     }
    
+    .container-preco{
+        height: 105vh;
+    }
+
     .none{
         display: none;
     }
