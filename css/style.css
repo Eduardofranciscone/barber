@@ -801,11 +801,7 @@ article{
     
 }
 
-@media (max-width:384px){
-    .container-preco{
-        height: 110vh;
-    }
-}
+
 
 @media (max-width:357px) {
     .precos{
@@ -813,7 +809,7 @@ article{
     }
 
     .container-preco{
-        height: 110vh;
+        height: 100vh;
         margin: auto;
     }
 
