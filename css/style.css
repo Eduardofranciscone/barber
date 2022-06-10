@@ -28,7 +28,7 @@ body{
 .container{
     max-width: 1400px;
     min-width: 300px;
-    background-image: linear-gradient(45deg, black, #69312b);
+    
 }
 
 header{
@@ -219,7 +219,9 @@ td{
     max-width: 1400px;
     min-width: 300px;
     height: 100vh;
-    
+    background-image: url('../images/imagem-fundo-preco-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #custo{
