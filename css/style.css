@@ -126,6 +126,7 @@ li{
     max-width: 70%;
     margin: auto;
     border: 1px solid yellow;
+    border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
     text-align: center;
@@ -725,9 +726,7 @@ article{
     }
 
     .container-preco{
-        background-image: url('../images/pexels-cottonbro-3998389.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-image:none;
     }
 
     .horarios-mobile{
@@ -813,8 +812,6 @@ article{
     }
     
 }
-
-
 
 @media (max-width:357px) {
     .precos{
