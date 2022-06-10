@@ -722,15 +722,14 @@ article{
     .cortes-container{
         background-image: url('../images/pexels-cottonbro-3998418.jpg');
         background-size: cover;
+        background-position: center center;
         background-repeat: no-repeat;
-        
     }
 
     .container-preco{
         background-image: url('../images/pexels-cottonbro-3998389.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-       
     }
 
     .horarios-mobile{
