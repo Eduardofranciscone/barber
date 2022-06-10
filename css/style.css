@@ -28,7 +28,7 @@ body{
 .container{
     max-width: 1400px;
     min-width: 300px;
-    background-color: #4E3328;
+    background-image: linear-gradient(45deg, black, #69312b);
 }
 
 header{
@@ -719,6 +719,16 @@ article{
 
     .cortes-container{
         background-image: url('../images/pexels-cottonbro-3998418.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .container-preco{
+        background-image: url('../images/pexels-cottonbro-3998389.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     .horarios-mobile{
