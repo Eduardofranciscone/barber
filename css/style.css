@@ -25,11 +25,10 @@ body{
 
 /*PÁGINA DE INICIO*/
 
-
-
 .container{
     max-width: 1400px;
     min-width: 300px;
+    background-color: #4E3328;
 }
 
 header{
@@ -445,6 +444,7 @@ article{
 @media (max-width:760px){
     .container{
         margin: auto;
+        height: 100vh;
     }
     
     .contact-container{
@@ -716,6 +716,11 @@ article{
 }
 
 @media (max-width:500px) {
+
+    .cortes-container{
+        background-image: url('../images/pexels-cottonbro-3998418.jpg');
+    }
+
     .horarios-mobile{
         display: block;
     }
