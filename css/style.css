@@ -11,12 +11,12 @@
 :root{
     --fontlogo: 'Ultra', serif;
     --fontbody:'Poppins', sans-serif;
-
+    --corbackground:black;
     --corlogo:#FFE34B;
 }
 
 body{
-    background-color: black;
+    background-color: var(--corbackground);
     color: white;
     font-family: var(--fontbody);
     min-height: 100vh;
@@ -76,7 +76,7 @@ li{
 }
 .imgdefundo{
   height: 600px;
-  width: 900px;
+  
 }
 
 .description{
