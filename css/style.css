@@ -34,10 +34,11 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-family: var(--fontlogo);
     width: 100%;
+    gap: 80px;
 }
 
 .logo{
@@ -52,13 +53,16 @@ nav{
     display: inline-block;
 }
 
-ul{
+nav ul{
    text-decoration: none;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: 700;
 }
 
 a{
     text-decoration: none;
     color: white;
+    transition: 0.8s;
 }
 
 .linknav:hover{
@@ -103,8 +107,8 @@ li{
 
 .agenda:hover{
     color:black ;
-    background-color: #FFE34B;
-    text-decoration: underline;
+    background-color: #fffbe3;
+    text-decoration: none;
 }
 /*PÁGINA SOBRE*/
 
@@ -706,7 +710,7 @@ article{
 
 
 
-   @media (max-width:590px){
+@media (max-width:590px){
         
     .container{
         margin: auto;
@@ -715,12 +719,18 @@ article{
       .imgdefundo{
           height: 250px;
       }
-   }
+
+      .move{
+        display: block;
+    }
+
+}
 
 }
 
 @media (max-width:500px) {
 
+    
     .cortes-container{
         background-image: none;
     }
