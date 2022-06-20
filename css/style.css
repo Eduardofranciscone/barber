@@ -78,7 +78,7 @@ li{
     text-align: center;
 }
 .imgdefundo{
-  height: 600px;
+  height: 460px;
   
 }
 
@@ -94,7 +94,7 @@ li{
     margin-bottom: 20px;
     text-align: center;
     margin-top: 10px;
-    display: none;
+    display: block;
 }
 .agenda{
     color: white;
